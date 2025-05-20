@@ -1,0 +1,32 @@
+{
+  "profile": {
+    "name": "Ulvi Alizada",
+    "title": "Web Developer"
+  },
+  "about": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  "contact": [
+    { "icon": "fa-phone", "info": "+994 70 864 81 80" },
+    { "icon": "fa-envelope", "info": "alizadaulvi04@gmail.com" },
+    { "icon": "fa-globe", "info": "sap.aztu.edu.az/telebe" },
+    { "icon": "fa-linkedin", "info": "www.linkedin.com/in/ulvi-alizada" },
+    { "icon": "fa-map-marker", "info": "Baku, Surakhani, Azerbaijan" }
+  ],
+  "languages": [
+    { "name": "English", "percent": 68 },
+    { "name": "Turkish", "percent": 90 },
+    { "name": "Azerbaijani", "percent": 95 }
+  ],
+  "education": [
+    { "year": "2024 - 2028", "degree": "Bachelor in Info Security", "school": "AzTU" },
+    { "year": "2028 - 2030", "degree": "Master in Programming", "school": "Istanbul Uni" }
+  ],
+  "experience": [
+    { "year": "2024 - Present", "company": "Unico", "position": "Frontend Developer", "desc": "Using HTML/CSS/JS" }
+  ],
+  "skills": [
+    { "name": "HTML", "percent": 76 },
+    { "name": "CSS", "percent": 66 },
+    { "name": "JavaScript", "percent": 48 }
+  ],
+  "interests": ["Gaming", "Cycling", "Football", "Reading"]
+}

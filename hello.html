@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dynamic CV</title>
+  <link rel="stylesheet" href="hi.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="left-side">
+      <div class="ProfileText" id="profileText"></div>
+
+      <div class="contactInfo">
+        <h3 class="title">Contact Info</h3>
+        <ul id="contactInfo"></ul>
+      </div>
+
+      <div class="contactInfo education">
+        <h3 class="title">Education</h3>
+        <ul id="educationInfo"></ul>
+      </div>
+
+      <div class="contactInfo language">
+        <h3 class="title">Languages</h3>
+        <ul id="languageInfo"></ul>
+      </div>
+    </div>
+
+    <div class="right-side">
+      <div class="about" id="aboutProfile"></div>
+
+      <div class="about experience">
+        <h2 class="title2">Experience</h2>
+        <div id="experienceList"></div>
+      </div>
+
+      <div class="about skills">
+        <h2 class="title2">Professional Skills</h2>
+        <div id="skillsList"></div>
+      </div>
+
+      <div class="about interest">
+        <h2 class="title2">Interest</h2>
+        <ul id="interestList"></ul>
+      </div>
+
+    
+      <div class="about">
+        <h2 class="title2">Edit Profile</h2>
+        <div>
+          <label>Name:</label>
+          <input id="editName" />
+          <button onclick="saveField('name')">Save</button>
+        </div>
+        <div>
+          <label>Title:</label>
+          <input id="editTitle" />
+          <button onclick="saveField('title')">Save</button>
+        </div>
+        <button onclick="resetAll()">Reset All</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="bye.js"></script>
+</body>
+</html>
