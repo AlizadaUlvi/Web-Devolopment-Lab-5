@@ -29,7 +29,7 @@ function renderProfile() {
   const profile = profileData.profile;
   document.getElementById("profileText").innerHTML = `
     <div class="imgbx">
-      <img src="images.jpeg" alt="Profile photo">
+      <img src="images.jpg" alt="Profile photo">
     </div>
     <h2>${profile.name}<br><span>${profile.title}</span></h2>
   `;
